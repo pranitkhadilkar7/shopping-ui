@@ -1,0 +1,9 @@
+{
+  "name": "shopping-ui",
+  "version": "1.0.0",
+  "description": "Project created for merchant and consumer shopping",
+  "main": "index.js",
+  "repository": "https://github.com/pranitkhadilkar7/shopping-ui.git",
+  "author": "Pranit Khadilkar",
+  "license": "MIT"
+}
