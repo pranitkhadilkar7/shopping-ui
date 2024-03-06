@@ -11,6 +11,11 @@ const config: Configuration = {
         path: path.resolve(__dirname, 'dist'),
         clean: true
     },
+    optimization: {
+        splitChunks: {
+            chunks: 'all'
+        }
+    },
     resolve: {
         extensions: ['.tsx', '.ts', '.js']
     },

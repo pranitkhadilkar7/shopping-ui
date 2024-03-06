@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Project created for merchant and consumer shopping",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack serve"
   },
   "repository": "https://github.com/pranitkhadilkar7/shopping-ui.git",
   "author": "Pranit Khadilkar",
