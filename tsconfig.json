@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "sourceMap": true,
+        "target": "ES5",
+        "esModuleInterop":true,
+        "moduleResolution": "Node",
+        "outDir": "./dist",
+        "strict": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["src"]
+}
