@@ -2,8 +2,17 @@
   "name": "shopping-ui",
   "version": "1.0.0",
   "description": "Project created for merchant and consumer shopping",
-  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
   "repository": "https://github.com/pranitkhadilkar7/shopping-ui.git",
   "author": "Pranit Khadilkar",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
