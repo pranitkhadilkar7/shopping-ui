@@ -14,7 +14,7 @@ const config: Configuration = {
     },
     optimization: {
         splitChunks: {
-            chunks: 'all'
+            chunks: 'all'   
         }
     },
     resolve: {
@@ -34,7 +34,7 @@ const config: Configuration = {
             },
             {
                 test: /\.css$/i,
-                use: [MiniCssExtractPlugin.loader, 'css-loader']
+                use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
             }
         ]
     },
