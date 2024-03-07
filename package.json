@@ -4,7 +4,7 @@
   "description": "Project created for merchant and consumer shopping",
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve"
+    "start": "webpack serve --config webpack.config.dev.ts"
   },
   "repository": "https://github.com/pranitkhadilkar7/shopping-ui.git",
   "author": "Pranit Khadilkar",
@@ -19,6 +19,7 @@
     "@types/react": "^18.2.63",
     "@types/react-dom": "^18.2.20",
     "@types/webpack": "^5.28.5",
+    "@types/webpack-dev-server": "^4.7.2",
     "babel-loader": "^9.1.3",
     "css-loader": "^6.10.0",
     "html-webpack-plugin": "^5.6.0",
