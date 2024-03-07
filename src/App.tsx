@@ -1,3 +1,3 @@
 export function App () {
-    return <p>Shopping React App</p>
+    return <p className="title">Shopping React App</p>
 }

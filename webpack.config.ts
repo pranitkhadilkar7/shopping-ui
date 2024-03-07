@@ -30,6 +30,10 @@ const config: Configuration = {
                 test: /\.(ts|tsx)$/,
                 exclude: /node_modules/,
                 use: ["ts-loader"]
+            },
+            {
+                test: /\.css$/i,
+                use: ['style-loader', 'css-loader']
             }
         ]
     },
