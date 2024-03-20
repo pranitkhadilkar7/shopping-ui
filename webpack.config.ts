@@ -6,9 +6,9 @@ import { Configuration } from 'webpack'
 const config: Configuration = {
   mode: 'production',
   entry: './src/index.tsx',
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
   output: {
-    filename: '[name].bundle.js',
+    filename: 'js/[name].[contenthash].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
